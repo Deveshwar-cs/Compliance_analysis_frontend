@@ -2,7 +2,7 @@ import axios from "axios";
 
 const api = axios.create({
   // baseURL: "http://localhost:5003/api",
-  baseURL: "https://compliance-analysis-backend.onrender.com",
+  baseURL: "https://compliance-analysis-backend.onrender.com/api",
   withCredentials: true,
 });
 
