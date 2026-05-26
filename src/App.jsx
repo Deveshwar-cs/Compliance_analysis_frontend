@@ -1,18 +1,18 @@
 import React from "react";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
-import Layout from "./components/Layout";
-import Dashboard from "./pages/Dashboard";
-import Organization from "./pages/Organization";
-import Protocols from "./pages/RulesAndPolicies";
-import Products from "./pages/Products";
-import ComplianceEngine from "./pages/ComplianceEngine";
-import Reports from "./pages/Reports";
-import Register from "./pages/Register";
-import SignIn from "./pages/auth/SignIn";
-import SignUp from "./pages/auth/SignUp";
-import {AuthProvider} from "./context/AuthContext";
-import Protected from "./pages/auth/Protected";
-import Logout from "./pages/auth/Logout";
+import Layout from "./components/Layout.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
+import Organization from "./pages/Organization.jsx";
+import Protocols from "./pages/RulesAndPolicies.jsx";
+import Products from "./pages/Products.jsx";
+import ComplianceEngine from "./pages/ComplianceEngine.jsx";
+import Reports from "./pages/Reports.jsx";
+import Register from "./pages/Register.jsx";
+import SignIn from "./pages/auth/SignIn.jsx";
+import SignUp from "./pages/auth/SignUp.jsx";
+import {AuthProvider} from "./context/AuthContext.jsx";
+import Protected from "./pages/auth/Protected.jsx";
+import Logout from "./pages/auth/Logout.jsx";
 import {ToastContainer} from "react-toastify";
 
 const App = () => {
